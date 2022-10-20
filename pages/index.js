@@ -14,6 +14,7 @@ export default function Home() {
     const formData = new FormData();
     formData.append("file", file);
     formData.append("upload_preset", "lmcjlzkl");
+    formData.append("public_id", "bouya");
     fetch(url, {
       method: "POST",
       body: formData,
