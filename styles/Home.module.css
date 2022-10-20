@@ -9,6 +9,13 @@
   justify-content: center;
 }
 
+.image {
+border-radius: 50%;
+object-fit: cover;
+/* border-color: white; */
+border-width: thick;
+}
+
 .input {
   display: none;
 }
