@@ -47,13 +47,15 @@ export default function Home() {
           />
         </label>
         <p>{chosenFile}</p>
-        <Image
-          src={tempURL}
-          width={200}
-          height={200}
-          alt="Votre photo"
-          className={styles.image}
-        />
+        {tempURL ? (
+          <Image
+            src={tempURL}
+            width={100}
+            height={100}
+            alt="Votre photo"
+            className={styles.image}
+          />
+        ) : null}
         <button type="submit">Ajouter</button>
       </form>
     </div>
