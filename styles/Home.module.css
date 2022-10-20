@@ -3,6 +3,20 @@
   text-align: center;
 }
 
+.form {
+  display: flex;
+  place-items: center;
+  justify-content: center;
+}
+
+.input {
+  display: none;
+}
+
+.label {
+  cursor: pointer;
+}
+
 .main {
   min-height: 100vh;
   padding: 4rem 0;
